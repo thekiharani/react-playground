@@ -2,6 +2,8 @@
 
 By [`Jay Kiharani`](https://github.com/thekiharani)
 
+- Please copy `.env.example` file to `.env` file (use command `cp .env.example .env` from terminal or copy manually) and replace the variable placeholders with appropriate, valid values for your app to work as expected.
+
  `More customized docs coming soon`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

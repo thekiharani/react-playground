@@ -3,8 +3,9 @@ import Recipe from './Recipe';
 import './Recipes.scss';
 
 const Recipes = () => {
-  const APP_ID= YOUR_APP_ID;
-  const APP_KEY = YOUR_APP_KEY;
+  const APP_ID= process.env.REACT_APP_EDAMAM_ID;
+  const APP_KEY = process.env.REACT_APP_EDAMAM_KEY;
+
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('chicken');
